@@ -46,7 +46,7 @@ public class NQueens {
             for (int j = 0; j < n; j++) {
                 board[i][j] = '.';
             }
-        System.out.println(); // ✅ newline added
+        System.out.println();
         solve(board, 0, n);
     }
 }
